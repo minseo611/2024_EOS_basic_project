@@ -1,0 +1,172 @@
+{
+   "checksum": "db52856b9f34e1d045169314057eb61b",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13357412903297172",
+            "date_last_used": "0",
+            "guid": "76bbad86-2e58-4121-b44d-a23fe5c55691",
+            "id": "22",
+            "name": "G마켓",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://www.gmarket.co.kr/?jaehuid=200014210",
+            "visit_count": 0
+         }, {
+            "date_added": "13357412903490248",
+            "date_last_used": "0",
+            "guid": "8b920654-5623-425b-a6d9-540cb25ca8f4",
+            "id": "23",
+            "name": "옥션",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "http://banner.auction.co.kr/bn_redirect.asp?ID=BN00257167&lpurl=http%3A%2F%2Fwww.auction.co.kr%2F",
+            "visit_count": 0
+         }, {
+            "date_added": "13357412903841974",
+            "date_last_used": "0",
+            "guid": "66d84897-2bd5-44fb-b79f-22f00cebd780",
+            "id": "24",
+            "name": "위메프",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://front.wemakeprice.com/affiliate/bridge?channelId=1000047&affiliateExtraNo=bookmark",
+            "visit_count": 0
+         }, {
+            "date_added": "13357412902137280",
+            "date_last_used": "0",
+            "guid": "8a44b63b-95d5-4062-9cd8-bd44c454a996",
+            "id": "25",
+            "name": "쿠팡!",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://coupa.ng/bpONmD",
+            "visit_count": 0
+         }, {
+            "date_added": "13371558138362512",
+            "date_last_used": "0",
+            "guid": "5e82c66f-9f9a-4fa8-b9f9-1d327ac10591",
+            "id": "9",
+            "name": "Adobe Acrobat Pro DC for Samsung",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.adobe.com/go/samsung_apdc",
+            "visit_count": 0
+         }, {
+            "date_added": "13371558138362473",
+            "date_last_used": "0",
+            "guid": "f3ab8199-65a2-4714-a27e-da8dd4b9e088",
+            "id": "8",
+            "name": "Adobe Creative Cloud All Apps for Samsung",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.adobe.com/go/samsung_cci",
+            "visit_count": 0
+         }, {
+            "date_added": "13371558138362417",
+            "date_last_used": "0",
+            "guid": "2be5bd97-c87b-4a94-b097-ec67013bac02",
+            "id": "7",
+            "name": "Adobe Premiere Pro CC for Samsung",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.adobe.com/go/samsung_ppcc",
+            "visit_count": 0
+         }, {
+            "date_added": "13371558138361990",
+            "date_last_used": "0",
+            "guid": "4ef5fbab-f308-418c-ae2e-a8ab98c4ffc2",
+            "id": "6",
+            "name": "McAfee LiveSafe - Benefits for Samsung PC users",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=249249",
+            "visit_count": 0
+         } ],
+         "date_added": "13371558138027537",
+         "date_last_used": "0",
+         "date_modified": "13371558145046116",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "즐겨찾기 모음",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13357412903199689",
+            "date_last_used": "0",
+            "guid": "ecb867dd-51ab-42f8-813f-8b69d1b9a85d",
+            "id": "18",
+            "name": "G마켓",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://www.gmarket.co.kr/?jaehuid=200014210",
+            "visit_count": 0
+         }, {
+            "date_added": "13357412903431886",
+            "date_last_used": "0",
+            "guid": "604b1fda-39fa-4e0b-8108-9f8180fbda4f",
+            "id": "19",
+            "name": "옥션",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "http://banner.auction.co.kr/bn_redirect.asp?ID=BN00257167&lpurl=http%3A%2F%2Fwww.auction.co.kr%2F",
+            "visit_count": 0
+         }, {
+            "date_added": "13357412903747145",
+            "date_last_used": "0",
+            "guid": "1e61cc1a-8ed3-4938-815c-e97b9d1cee0d",
+            "id": "20",
+            "name": "위메프",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://front.wemakeprice.com/affiliate/bridge?channelId=1000047&affiliateExtraNo=bookmark",
+            "visit_count": 0
+         }, {
+            "date_added": "13357412902081918",
+            "date_last_used": "0",
+            "guid": "6c522057-5530-41da-a183-0d9c2d43323f",
+            "id": "21",
+            "name": "쿠팡!",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://coupa.ng/bpONmD",
+            "visit_count": 0
+         } ],
+         "date_added": "13371558138027541",
+         "date_last_used": "0",
+         "date_modified": "13357412903747145",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "다른 즐겨찾기",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13371558138027543",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "모바일 즐겨찾기",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CosBCg4IiIECEgjnxUIekgEAABIAGlgzKzZnOHpyNnp3eDZZV1lhY0tJNk1PeDBSUHh0UG5sUW5XczIxRDdqMHdla2Y5MlJJR1pCVDFmbHJyaFRwR3BIenl1R1hTNFJYd0F5eFZJSHpuT0N2dz09KhhXaGZsNnllOUt3TWxYc1NmYUg2dDlnPT1IA6AGDBKoAQgZEqMBChxtc1FpaGxoS2l2R0F1U3g3WXpDajI3dWxTaG89EiQ4YTQ0YjYzYi05NWQ1LTQwNjItOWNkOC1iZDQ0YzQ1NGE5OTYYACAAKAAwxcrUy6AyOIDT1MugMkCA09TLoDJKHFhGckNpaHN3Y29MRVJpNUxqakJQVjlCTnhaMD1aHyId72tBeW9WWTEycmI3V3ZBZU5uMmVZL2p4OEEzMD1lAAAAABKoAQgXEqMBChwyMmUzUTVmMlRGVWlrUDVpNlNyWWw4MGpyK0k9EiQ4YjkyMDY1NC01NjIzLTQyNWItYTZkOS01NDBjYjI1Y2E4ZjQYACAAKAAwxMrUy6AyONvS1MugMkDb0tTLoDJKHHZWUERjWnJabVVKOWhlSEx3ek1UUkZiaDRyOD1aHyIdvDYrZWNlVjlhaSt0bWFza2RRc3NhWWVtT3JaMD1lAAAAABKJAQgBEoQBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiRkOTQwNTdiOC04YTE2LTVjMWYtOTI1OS0yMWJiODdlOThmMjMYACAAKAAwk7bUy6AyOMq51MugMkDKudTLoDJKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEqcBCBYSogEKHHhoenV4ZEdQZmIrNk4yeTNFbkdXRjhBWWU4cz0SJDc2YmJhZDg2LTJlNTgtNDEyMS1iNDRkLWEyM2ZlNWM1NTY5MRgAIAAoADDDytTLoDI4t9LUy6AyQLfS1MugMkocYWNsd3F2VS82czJLYmpHcllQbUFhRzZ6U0IwPVoeIhx4UVpIWlB6clZ6bzBaaGphUUZmc0VYVzk3QzQ9ZQAAAAASqAEIFRKjAQocNlJHSTltS09YZ1NSWWE4eUU2N0VPR2xhQm00PRIkNmM1MjIwNTctNTUzMC00MWRhLWExODMtMGQ5YzJkNDMzMjNmGAAgACgAMMHK1MugMjjv0dTLoDJA79HUy6AyShxkWXhTS1BrSnNQRWVBN01Zd2Z3c3VBc3FISG89Wh8iHdk4MjE2dnowWndnZE4zRzJqZXhUNVRCR0JnS2c9ZQAAAAASpwEIEhKiAQocaVdxN1JBNnR3Q1ZXbm50MlhnRFVnL0tML0hZPRIkZWNiODY3ZGQtNTFhYi00MmY4LTgxM2YtOGI2OWQxYjlhODVkGAAgACgAMMLK1MugMjiW0tTLoDJAltLUy6AyShxySmVlVDJ0N2hJVlc5ekphK1hBTVc4ejBxb0U9Wh4iHDdVWVFpMldTSWJGYytDeEhTVDE3R21Obi9FOD1lAAAAABKoAQgUEqMBChxIQy9MWTVyZlhKRlRKUUJtc1JZVlVnU2xOeGs9EiQxZTYxY2MxYS04ZWQzLTQ5MzgtODE1Yy1lOTdiOWQxY2VlMGQYACAAKAAwv8rUy6AyOLPQ1MugMkCz0NTLoDJKHEtsbVgvajZYUGdJQW51REFTUWpjd2g5NG5nUT1aHyIds0VuRG9vdU1zeG1sUmdDUTRLT3ZrOThNdnRSUT1lAAAAABKoAQgYEqMBChxZMFBhVXBCdHlvNjVrb3duVXEyTzdNMFRGSTQ9EiQ2NmQ4NDg5Ny0yYmQ1LTQ0ZmItYjc5Zi0yMmYwMGNlYmQ3ODAYACAAKAAwwMrUy6AyOMvR1MugMkDL0dTLoDJKHEY3TmNoSVI5QUxEUzhpNmp2N2FMNjltQW5Ecz1aHyId3m4yOVJxeGJMcFRnU3Vkdjhjc2dtNWgybDJScz1lAAAAABKJAQgCEoQBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiRmZTgxM2YyOC1hNjA4LTU0ZTgtOTY4MS1jNGQ0MzY5NjBlZGIYACAAKAAwlLbUy6AyOPK51MugMkDyudTLoDJKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEqcBCBMSogEKHDdNQ3F1SVFmanJPdzFZY0c3SXpzODNwbWtyYz0SJDYwNGIxZmRhLTM5ZmEtNGUwYi04MTA4LTlmODE4MGZiZGE0ZhgAIAAoADC+ytTLoDI4kNDUy6AyQJDQ1MugMkocZkFLUnJWdC9ObFNxaG02K2JKU2h2aVRDZDB3PVoeIhxmU2s5c0FuaDBPdlBjcWEwS0dobEdNTWNOVEE9ZQAAAAASiQEIAxKEAQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkNTFiZjE4NWItNDhmYi01N2UyLWJjYTktZWI3MmVlNjc3YTY3GAAgACgAMJm21MugMji9utTLoDJAvbrUy6AyShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAADAAOAA=",
+   "version": 1
+}
