@@ -1,3 +1,4 @@
+import 'package:eos_todolist/screens/setting_screen.dart';
 import 'package:flutter/material.dart';
 import '/widgets/add_button.dart';
 import '/widgets/todo_item.dart';
@@ -11,6 +12,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   List<String> toDoLists = [];
+  final TextEditingController _textController = TextEditingController();
 
   @override
   void initState() {
@@ -21,15 +23,21 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   @override
+  void dispose() {
+    _textController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFA4C639).withOpacity(0.1),
         title: Text('EOS Todolist'),
-        leading: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Image.asset('assets/images/img.png'),
-        ),
+        leading: Image.asset('assets/images/img.png'),
+        actions: [IconButton(onPressed: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context)=>SettingScreen()));
+        }, icon: Icon(Icons.settings_rounded))],
       ),
       body: Column(
         children: [
@@ -41,17 +49,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 Container(
                   width: 140,
                   height: 140,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    border: Border.all(
-                      width: 10,
-                      color: Colors.grey,
-                    ),
-                    borderRadius: BorderRadius.circular(70),
-                  ),
-                  child: Center(
-                    child: Image.asset('assets/images/img.png'),
-                  ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(80),
+                      child: Image.asset('assets/images/img_1.png', fit: BoxFit.cover,)),
                 ),
                 SizedBox(width: 35),
                 Column(
@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     SizedBox(height: 15),
-                    Text('.'),
+                    Text('정해인과 결혼하는 방법을 알아내자!'),
                   ],
                 ),
               ],
@@ -129,18 +129,67 @@ class _HomeScreenState extends State<HomeScreen> {
               Positioned(
                 bottom: 30,
                 right: 50,
-                child: AddButton(
-                  onPressed: () {
-                    setState(() {
-                      toDoLists.add("+++++++");
-                    });
-                  },
-                ),
+                child: AddButton(onPressed: _showAddToDoDialog),
               ),
             ],
           ),
         ],
       ),
+    );
+  }
+
+  /// 수정된 _showAddToDoDialog 메서드
+  void _showAddToDoDialog() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text(
+            '할 일 추가',
+            style: TextStyle(color: Colors.black), // 제목 텍스트 색상 설정
+          ),
+          content: TextField(
+            controller: _textController,
+            style: TextStyle(color: Colors.black), // 활성화 시 텍스트 색상 검정
+            decoration: InputDecoration(
+              hintText: '할 일을 입력하세요',
+              hintStyle: TextStyle(color: Colors.grey), // 비활성화 시 텍스트 색상 회색
+              enabledBorder: UnderlineInputBorder(
+                borderSide: BorderSide(color: Colors.grey), // 비활성화 시 테두리 회색
+              ),
+              focusedBorder: UnderlineInputBorder(
+                borderSide: BorderSide(color: Colors.black), // 활성화 시 테두리 검정
+              ),
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop(); // Dialog 닫기
+              },
+              child: Text(
+                '취소',
+                style: TextStyle(color: Colors.black), // "취소" 버튼 텍스트 색상 검정
+              ),
+            ),
+            TextButton(
+              onPressed: () {
+                if (_textController.text.isNotEmpty) {
+                  setState(() {
+                    toDoLists.add(_textController.text);
+                    _textController.clear();
+                  });
+                  Navigator.of(context).pop();
+                }
+              },
+              child: Text(
+                '추가',
+                style: TextStyle(color: Colors.black), // "추가" 버튼 텍스트 색상 검정
+              ),
+            ),
+          ],
+        );
+      },
     );
   }
 }
